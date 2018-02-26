@@ -1,0 +1,59 @@
+
+.form-control {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    color: #969696;
+}
+.form-control::placeholder {
+    color: #969696;
+}
+
+.form-control:focus::placeholder {
+    color: transparent;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #24b5e1;
+}
+
+.form-search {
+    padding-top: 35px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-append {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    position: absolute;
+}
+.form-append ~ .form-control {
+    padding-right: 30px;
+}
+
+
+.icon-seach {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.news {
+    padding-top: 15px;
+}
+
+.news_1 {
+    padding-top: 22px;
+}

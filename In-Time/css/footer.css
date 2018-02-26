@@ -1,0 +1,9 @@
+
+.list-socials{
+    display: flex;
+}
+
+.social{
+    display: inline-block;
+    padding: 20px 5px 20px 0;
+}

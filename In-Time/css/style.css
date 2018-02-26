@@ -1,0 +1,20 @@
+@import "basic.css";
+@import "layouts.css";
+@import "header.css";
+@import "content.css";
+@import "aside.css";
+@import "footer.css";
+
+/*--------------------components--------------------------------------*/
+
+@import "components/navbar.css";
+@import "components/breadcrumbs.css";
+@import "components/nav.css";
+@import "components/article.css";
+@import "components/list.css";
+@import "components/gallery.css";
+@import "components/table.css";
+@import "components/tabs.css";
+@import "components/form.css";
+@import "components/button.css";
+@import "components/card.css";

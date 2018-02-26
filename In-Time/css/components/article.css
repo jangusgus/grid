@@ -1,0 +1,41 @@
+/*--------------------content------------------------------*/
+
+.layout-blog {
+    padding-right: 50px;
+}
+
+.layout-blog .content-info {
+    border-bottom: 2px dotted #cacaca;
+}
+
+.content-info:first-child,
+.content-info:last-child {
+    border-bottom: none;
+}
+
+.content-article {
+    padding: 18px 0 15px 0;
+    line-height: 1.5;
+}
+
+.content-title {
+    padding: 30px 0 15px 0;
+     color: #212121;
+}
+
+/*------------------1st article-------------------------*/
+
+h1.content-title {
+    padding: 35px 0 14px 0;
+}
+
+/*------------------2nd article-------------------------*/
+
+h3.content-title {
+    padding: 29px 0 4px 0;
+}
+
+.upp {
+    text-transform: uppercase;
+    color: #555555;
+}

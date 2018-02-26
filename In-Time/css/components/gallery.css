@@ -1,0 +1,22 @@
+/*-------------------gallery--------------------------*/
+.content-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-img {
+    padding-right: 20px;
+}
+
+.gallery-img:last-child {
+    padding-right: 0;
+}
+
+.list-order {
+    padding-bottom: 2px;
+}
+
+.order::before {
+    counter-increment: my-counter;
+    content: counter(my-counter) ") ";
+}

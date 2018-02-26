@@ -1,0 +1,19 @@
+/*---------------------table---------------------------------*/
+.tables {
+    width: 100%;
+    margin: 15px 0 45px 0;
+}
+
+.tables tr:nth-child(2n+2) {
+    background-color: #d6d0d0;
+    ;
+}
+
+.tables th,
+.tables td {
+    padding: 15px;
+}
+
+.tables th {
+    text-align: left;
+}

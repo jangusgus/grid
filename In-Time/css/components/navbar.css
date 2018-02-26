@@ -1,0 +1,27 @@
+/*--------------------navbar-------------------*/
+
+.header-logo {
+    padding: 26px 0;
+}
+
+.header-phone {
+    position: relative;
+    margin-left: auto;
+}
+
+.phone-number {
+    font-family: "Tahoma";
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.phone-number a {
+    color: #000;
+    text-decoration: none;
+}
+
+.phone-icon {
+    position: absolute;
+    top: -5px;
+    left: -27px;
+}
