@@ -1,0 +1,15 @@
+.list {
+    padding-bottom: 20px;
+}
+
+.list-item {
+    padding: 9px;
+}
+
+.unorder::before {
+    content: "\2014";
+    display: inline-block;
+    color: #7f7f7f;
+    padding-right: 5px;
+    width: 15px;
+}

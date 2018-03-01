@@ -1,0 +1,27 @@
+/*---------------header------------------*/
+.header-top-container {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------breadcrumbs------------------*/
+.breadcrumb {
+    display: flex;
+}
+
+/*---------------content------------------*/
+.content-wrap {
+    display: flex;
+    border-bottom: 2px dotted #cacaca;
+}
+
+/*---------------footer------------------*/
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

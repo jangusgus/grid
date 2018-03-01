@@ -1,0 +1,22 @@
+/*----------------------breadcrumbs-----------------------*/
+
+.breadcrumb-item {
+    color: #7c7c7c;
+    padding: 15px 0;
+}
+
+.breadcrumb-item a {
+    color: #7c7c7c;
+    padding: 15px 0;
+}
+
+.breadcrumb-item::before {
+    content: ">";
+    color: #7c7c7c;
+    padding: 0 5px;
+}
+
+.breadcrumb-item:first-child::before {
+    content: "";
+    padding: 0;
+}

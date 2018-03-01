@@ -1,0 +1,18 @@
+.card {
+    border-bottom: 1px dotted #c9c9c9;
+    padding: 20px 0;
+}
+
+.card-title {
+    font-size: 14px;
+}
+
+.card-date {
+    padding-top: 10px;
+    color: #969696;
+    font-size: 11px;
+}
+
+.card-description {
+    padding-top: 17px;
+}
